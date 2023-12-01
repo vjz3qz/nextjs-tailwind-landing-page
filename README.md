@@ -5,6 +5,7 @@
 - [x] Simple 'Slider' implementation
 - [x] Project build based on TypeScript using Nextjs, TailwindCss
 
+
 -------
 
 ### Also below some more interesting things i have learned
