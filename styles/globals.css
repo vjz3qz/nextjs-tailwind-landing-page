@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import 'additional-styles/utility-patterns.css';
+
 
 html {
     scroll-behavior: smooth;
@@ -8,5 +10,30 @@ html {
 }
 
 .custom-img {
-    background-image: url("https://images.unsplash.com/photo-1504025468847-0e438279542c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1269&q=80");
+    background-image: url("/images/dalle2.png");
 }
+
+/* styles/global.css */
+@font-face {
+    font-family: 'Alliance No. 2 Medium';
+    src: url('/fonts/AllianceNo.2-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+      font-family: 'Alliance No. 2 Regular';
+      src: url('/fonts/AllianceNo2-Regular.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+        font-family: 'Alliance No. 2 Light';
+        src: url('/fonts/AllianceNo2-Light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }

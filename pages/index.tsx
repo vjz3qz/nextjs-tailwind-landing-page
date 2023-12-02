@@ -5,24 +5,32 @@ import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
 import Instagram from "../components/InstagramGallery/Instagram";
 import Portfolio from "../components/Portfolio/Portfolio";
+import Newsletter from "../components/Newsletter/Newsletter";
+import Footer from "../components/Footer/Footer";
+import Features from "../components/Features/Features";
+import Testimonials from "../components/Testimonials/Testimonials";
 import Contact from "../components/Contact/Contact";
 
 const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Keep moving</title>
+        <title>Trace AI</title>
         <meta
           name="description"
           content="Created as template for future work"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="Let's go jogging" message="Find your road" />
-      <Slider slides={SliderData} />
+      <Hero heading="Intelligence Charting for Industrial Facilities" message="Trace AI is unifying every bit of information at your operational landscape." />
+      <Testimonials />
+      <Features />
+      {/* <Slider slides={SliderData} />
       <Instagram />
-      <Portfolio />
-      <Contact />
+      <Portfolio /> */}
+      <Newsletter />
+      {/* <Contact /> */}
+      <Footer />
     </>
   );
 };
