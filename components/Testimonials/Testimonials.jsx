@@ -6,7 +6,7 @@ function Testimonials() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-4">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
+          <div className="max-w-3xl mx-auto text-center pb-1 md:pb-2">
             <h2 className="h2 font-allianceMedium">
               Backed by
             </h2>
@@ -17,11 +17,10 @@ function Testimonials() {
           {/* Items */}
           <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src="/images/unusual-ventures--vector.svg" alt="" />
+              
             </div>
 
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src="/images/unusual--logo-vector.svg" alt="" />
             </div>
 
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto col-start-2 col-end-4">

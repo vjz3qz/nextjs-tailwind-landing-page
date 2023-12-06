@@ -16,14 +16,14 @@ const Hero = ({ heading, message }: Props) => {
 
         <div className="flex flex-col items-center justify-center">
     <div className="w-3/4">
-        <h2 className="font-allianceRegular text-4xl md:text-5xl lg:text-7xl font-bold">{heading}</h2>
-        <p className="py-5 text-lg md:text-2xl font-allianceLight">{message}</p>
+        <h2 className="font-allianceRegular text-3xl md:text-4xl lg:text-5xl font-bold">{heading}</h2>
+        <p className="py-5 text-md md:text-xl font-allianceLight">{message}</p>
     </div>
 </div>
 
 
 <div className="absolute bottom-20 left-0 right-0 flex items-center justify-center">
-<Link href="/#testimonials" passHref>
+<Link href="/#features" passHref>
 <button className="w-12 h-12 rounded-full border relative group flex items-center justify-center">
   <SlArrowDown />
 </button>

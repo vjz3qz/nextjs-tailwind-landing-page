@@ -22,13 +22,14 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="The first AI-powered Knowledge Base built for Industrial Facilities" message="Trace AI revolutionizes the way facility engineers query and comprehend technical documents, diagrams, and data." />
-      <Testimonials />
+      <Hero heading="The first AI-powered Knowledge Base for Industrial Facilities" message="Trace AI revolutionizes the way facility engineers query and comprehend technical documents, diagrams, and data." />
       <Features />
       {/* <Slider slides={SliderData} />
       <Instagram />
       <Portfolio /> */}
-      <Newsletter />
+      <Newsletter />      
+      <Testimonials />
+
       {/* <Contact /> */}
       <Footer />
     </>

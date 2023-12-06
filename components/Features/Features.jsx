@@ -24,19 +24,22 @@ function Features() {
   return (
     <section className="relative scroll-mt-20" id="features">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
+      {/* <img src="/images/palantir4.png" alt="" /> */}
       <div
         className="absolute inset-0 pointer-events-none mb-32"
         aria-hidden="true"
       ></div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 h-custom+ md:h-custom">
-        <div className="pt-12 md:pt-16 border-t border-gray-200">
+
+        <div className="pt-12 md:pt-16">
+        
+
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 font-allianceMedium mb-4">Explore our features</h1>
             <p className="font-allianceMedium text-xl text-gray-600">
-              Revolutionize your company&apos;s data using Trace AI&apos;s
-              propeitary software.
+              Revolutionize your company&apos;s data using Trace AI&apos;s software platform.
             </p>
           </div>
 

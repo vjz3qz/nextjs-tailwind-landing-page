@@ -29,7 +29,7 @@ function Footer() {
   <ul className="text-sm">
     <li className="mb-2">
 
-      <a href="mailto:vjz3qz@virginia.edu,rahulkm@berkeley.edu,ycz7sm@virginia.edu?subject=Trace%20AI%20Inquiry%3A%20" className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Email</a>
+      <a href="mailto:vjz3qz@virginia.edu,rahulkm@berkeley.edu,ycz7sm@virginia.edu?subject=Trace%20AI%20Inquiry%3A%20" className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Email the Founders</a>
     </li>
     <li className="mb-2">
       <a href="#0" className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Schedule a Demo</a>
@@ -38,7 +38,7 @@ function Footer() {
 </div>
 
 {/* 4th block */}
-{/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+<div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
   <h6 className="text-gray-800 font-medium mb-2 font-allianceRegular">Company</h6>
   <ul className="text-sm">
     <li className="mb-2">
@@ -46,7 +46,7 @@ function Footer() {
         <a className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Home</a>
 
             </Link>
-    </li> */}
+    </li>
     {/* <li className="mb-2">
       <a href="#0" className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">About us</a>
     </li>
@@ -56,17 +56,17 @@ function Footer() {
     <li className="mb-2">
       <a href="#0" className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Support Center</a>
     </li> */}
-{/*     <li className="mb-2">
+    <li className="mb-2">
         <Link href="/#testimonials">
         <a className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Partners</a>
 
         </Link>
     </li>
   </ul>
-</div> */}
+</div>
 
 {/* 3rd block */}
-{/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+<div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
   <h6 className="text-gray-800 font-medium mb-2 font-allianceRegular">Legal</h6>
   <ul className="text-sm">
     <li className="mb-2">
@@ -76,7 +76,7 @@ function Footer() {
       <a href="#0" className="font-allianceLight text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Privacy Policy</a>
     </li>
   </ul>
-</div> */}
+</div>
 
 {/* 5th block */}
 {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">

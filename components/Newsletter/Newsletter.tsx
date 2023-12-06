@@ -67,7 +67,7 @@ function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 font-allianceMedium text-white mb-2">Interested in hearing when we launch?</h3>
-                <p className="text-gray-300 font-allianceRegular text-lg mb-6">Power your knowledge with Trace AI.</p>
+                <p className="text-gray-300 font-allianceRegular text-lg mb-6">Power your diagram ecosystem with Trace AI.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto" onSubmit={handleSubmit}>
