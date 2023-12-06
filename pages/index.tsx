@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="Intelligence Charting for Industrial Facilities" message="Trace AI is unifying every bit of information at your operational landscape." />
+      <Hero heading="The first AI-powered Knowledge Base for your Industrial Facility" message="Trace AI revolutionizes the way facility engineers query and comprehend technical documents, diagrams, and data." />
       <Testimonials />
       <Features />
       {/* <Slider slides={SliderData} />
