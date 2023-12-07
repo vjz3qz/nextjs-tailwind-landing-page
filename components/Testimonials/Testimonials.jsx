@@ -4,7 +4,7 @@ function Testimonials() {
   return (
     <section className="relative scroll-mt-24" id="testimonials">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-4">
+        <div className="pb-4 pt-8">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="h2 text-2xl font-allianceLight">
