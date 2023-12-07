@@ -7,7 +7,7 @@ function Testimonials() {
         <div className="py-4">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-1 md:pb-2">
-            <h2 className="h2 font-allianceMedium">
+            <h2 className="h2 font-allianceRegular">
               Backed by
             </h2>
             {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis

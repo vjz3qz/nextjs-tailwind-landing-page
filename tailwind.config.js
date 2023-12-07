@@ -126,6 +126,9 @@ module.exports = {
         '9': '2.25rem',
         '10': '2.5rem',
       },
+      maxWidth: {
+        '8xl': '100rem', // You can set this value to whatever you want
+      },
       minWidth: {
         '10': '2.5rem',
         '48': '12rem',
