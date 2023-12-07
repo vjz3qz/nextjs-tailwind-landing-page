@@ -1,11 +1,6 @@
 
 import React from 'react';
 
-// You would import your icons/images here
-// import LeastPrivilegeIcon from './path-to-your-icon/LeastPrivilegeIcon.png';
-// import DefenseInDepthIcon from './path-to-your-icon/DefenseInDepthIcon.png';
-// import HighestStandardsIcon from './path-to-your-icon/HighestStandardsIcon.png';
-
 const features = [
   {
     id: 1,
@@ -47,24 +42,49 @@ const FeatureSection = () => (
   </div>
 );
 
+// const FeatureItem = ({ feature }) => (
+//   <div className="flex flex-col border-dotted border-2 border-gray-300 p-10 text-left transition duration-300 hover:bg-black hover:text-white">
+//     <div className="flex-shrink-0 my-6">
+//       <div className="h-28 w-28 rounded-full flex items-center justify-center overflow-hidden bg-white transition duration-300 hover:bg-black">
+//         {/* Apply the invert filter on hover */}
+//         <img 
+//           src={feature.iconPath} 
+//           alt={`${feature.title} icon`} 
+//           className="h-20 w-20 transition duration-300 hover:invert"
+//         />
+//       </div>
+//     </div>
+//     <h3 className="text-xl xl:text-2xl font-allianceRegular text-gray-900 mb-6 transition duration-300 hover:text-white"><span className="text-gray-600">0{feature.id} - </span>{feature.title}</h3>
+//     <div className="border-t border-gray-300 w-full my-6 transition duration-300 hover:border-white"></div> {/* Dotted line */}
+//     <p className="text-md xl:text-lg font-allianceLight text-gray-600 my-6 transition duration-300 hover:text-white">{feature.description}</p>
+//   </div>
+// );
+
+
 // FeatureItem Component
 const FeatureItem = ({ feature }) => (
-  <div className="flex flex-col border-dotted border-2 border-gray-300 p-10 text-left">
+  <div className="group flex flex-col border-dotted border-2 border-gray-300 p-10 text-left transition duration-300 hover:bg-black hover:text-white hover:border-black">
     <div className="flex-shrink-0 my-6">
-    <div className="h-20 w-20 rounded-full flex items-center justify-center">
-        {/* Use the img tag with the iconPath */}
+      <div className="h-28 w-28 rounded-full flex items-center justify-center overflow-hidden bg-white transition duration-300 group-hover:bg-black">
+        {/* Apply the invert filter on group hover */}
         <img 
           src={feature.iconPath} 
           alt={`${feature.title} icon`} 
-          className="h-20 w-20"
+          className="h-20 w-20 transition duration-300 group-hover:invert"
         />
       </div>
     </div>
-    <h3 className="text-xl xl:text-2xl font-allianceRegular text-gray-900 mb-6"><span className="text-gray-600">0{feature.id} - </span>{feature.title}</h3>
-    <div className="border-t border-gray-300 w-full my-6"></div> {/* Dotted line */}
-    <p className="text-md xl:text-lg font-allianceLight text-gray-600 my-6">{feature.description}</p>
+    {/* Apply text color change on group hover */}
+    <h3 className="text-xl xl:text-2xl font-allianceRegular text-gray-900 mb-6 transition duration-300 group-hover:text-white">
+      <span className="text-gray-600 transition duration-300 group-hover:text-white">0{feature.id} - </span>{feature.title}
+    </h3>
+    <div className="border-t border-gray-300 w-full my-6 transition duration-300 group-hover:border-white"></div> {/* Dotted line */}
+    {/* Apply text color change on group hover */}
+    <p className="text-md xl:text-lg font-allianceLight text-gray-600 my-6 transition duration-300 group-hover:text-white">{feature.description}</p>
   </div>
 );
+
+
 
 
 

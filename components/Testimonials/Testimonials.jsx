@@ -6,8 +6,8 @@ function Testimonials() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-4">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-1 md:pb-2">
-            <h2 className="h2 font-allianceRegular">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="h2 text-2xl font-allianceLight">
               Backed by
             </h2>
             {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out">Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis
