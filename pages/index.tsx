@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="Query, Analyze, and Actionize Industrial Diagrams 10x Faster" message="Trace AI revolutionizes the way engineers query and analyze technical documents, diagrams, and data." />
+      <Hero heading="Query and Analyze Industrial Diagrams 10x Faster" message="Trace AI revolutionizes the way engineers query and analyze technical documents, diagrams, and data." />
       <Features />
       {/* <Slider slides={SliderData} />
       <Instagram />
