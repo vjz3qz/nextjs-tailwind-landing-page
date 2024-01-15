@@ -22,12 +22,17 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="Query and Analyze Industrial Diagrams 10x Faster" message="Trace AI revolutionizes the way engineers query and analyze technical documents, diagrams, and data." />
-      <Features />
+      <Hero
+        heading="AI Copilot for Prior Authorizations"
+        // message=""
+        message="Ensure your prior authorization requests meet insurer guidelines."
+        // message="Accelerate"
+      />
+      {/* <Features /> */}
       {/* <Slider slides={SliderData} />
       <Instagram />
       <Portfolio /> */}
-      <Newsletter />      
+      <Newsletter />
       <Testimonials />
 
       {/* <Contact /> */}

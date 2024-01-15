@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
-  const [textColor, setTextColor] = useState("white");
+  const [textColor, setTextColor] = useState("black");
 
   const handleNav = () => {
     setNav(!nav);
@@ -14,11 +14,11 @@ const NavBar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor("#ffffff");
-        setTextColor("#000000");
+        setColor("#000000");
+        setTextColor("#ffffff");
       } else {
         setColor("transparent");
-        setTextColor("#ffffff");
+        setTextColor("#000000");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -31,11 +31,17 @@ const NavBar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl font-allianceMedium">
+          <h1
+            style={{ color: `${textColor}` }}
+            className="font-bold text-4xl font-allianceMedium"
+          >
             Trace AI
           </h1>
         </Link>
-        <ul style={{ color: `${textColor}` }} className="hidden sm:flex font-allianceLight">
+        <ul
+          style={{ color: `${textColor}` }}
+          className="hidden sm:flex font-allianceLight"
+        >
           <li className="p-4">
             <Link href="/">Home</Link>
           </li>
@@ -46,11 +52,12 @@ const NavBar = () => {
             <Link href="/#portfolio">My roads</Link>
           </li> */}
           <li className="p-4">
-
-          <a href="mailto:vjz3qz@virginia.edu,rahulkm@berkeley.edu,ycz7sm@virginia.edu?subject=Trace%20AI%20Inquiry%3A%20">Contact</a>
+            <Link href="/#newsletter">Contact</Link>
+            {/* <a href="mailto:vjz3qz@virginia.edu,rahulkm@berkeley.edu,ycz7sm@virginia.edu?subject=Trace%20AI%20Inquiry%3A%20">
+              Contact
+            </a> */}
           </li>
         </ul>
-
 
         {/* Mobile Button */}
         <div onClick={handleNav} className="block sm:hidden z-10">
@@ -91,7 +98,9 @@ const NavBar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-          <a href="mailto:vjz3qz@virginia.edu,rahulkm@berkeley.edu,ycz7sm@virginia.edu?subject=Trace%20AI%20Inquiry%3A%20">Contact</a>
+              <a href="mailto:vjz3qz@virginia.edu,rahulkm@berkeley.edu,ycz7sm@virginia.edu?subject=Trace%20AI%20Inquiry%3A%20">
+                Contact
+              </a>
             </li>
           </ul>
         </div>
