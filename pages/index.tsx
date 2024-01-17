@@ -30,8 +30,8 @@ const Home: NextPage = () => {
       />
       {/* <Features /> */}
       {/* <Slider slides={SliderData} />
-      <Instagram />
-      <Portfolio /> */}
+      <Instagram />} */ }
+      <Portfolio />
       <Newsletter />
       <Testimonials />
 
