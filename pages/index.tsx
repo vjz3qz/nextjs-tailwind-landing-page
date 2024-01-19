@@ -28,10 +28,10 @@ const Home: NextPage = () => {
         message="Ensure your prior authorization requests meet insurer guidelines."
         // message="Accelerate"
       />
-      {/* <Features /> */}
+      <Features />
       {/* <Slider slides={SliderData} />
       <Instagram />} */ }
-      <Portfolio />
+      {/* <Portfolio /> */}
       <Newsletter />
       <Testimonials />
 
