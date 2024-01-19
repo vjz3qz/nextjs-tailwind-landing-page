@@ -3,23 +3,23 @@ import React from "react";
 const features = [
   {
     id: 1,
-    title: "Intelligent Diagram Data Extraction",
+    title: "Support for the Biggest Insurance Providers",
     description:
-      "Transform extensive diagrams into actionable insights with our intelligent data extraction. Grasp component details and flow dynamics for decision-making and maintenance planning.",
+      "Whether it be Aetna or UHC, Trace AI automates the process of requirement discovery by finding plan specific details on-demand. ",
     iconPath: "/svgs/layers.svg",
   },
   {
     id: 2,
-    title: "AI-Driven Document and Diagram Integration",
+    title: "AI-Driven Insights for PA Submissions",
     description:
-      "Integrate document management with AI in our unified platform. Access, organize, and query essential data effortlessly, boosting decision-making and operational efficiency.",
+      "Make sure your prior authorization requests are approved the first time by levaraging Trace AI's intelligent recommendations to ensure your submission checks all the boxes.",
     iconPath: "/svgs/map.svg",
   },
   {
     id: 3,
-    title: "Tribal Knowledge & Incident Data Capture",
+    title: "Support for Medical and Pharmacy PAs",
     description:
-      "Efficiently capture and structure tribal knowledge, along with incident and maintenance data. Our system ensures this crucial knowledge is analyzed effectively and preserved for your team.",
+      "Regardless of the procedure or perscription, Trace AI can find and check prior authorization requirements in seconds.",
     iconPath: "/svgs/package.svg",
   },
 ];

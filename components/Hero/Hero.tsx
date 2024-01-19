@@ -34,7 +34,7 @@ const Hero = ({ heading, message }: Props) => {
           </div>
 
           <div className="absolute bottom-20 left-0 right-0 flex items-center justify-center">
-            <Link href="/#newsletter" passHref>
+            <Link href="/#features" passHref>
               <button className="w-12 h-12 rounded-full relative group flex items-center justify-center">
                 <SlArrowDown />
               </button>
